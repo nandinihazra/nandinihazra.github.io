@@ -1,13 +1,65 @@
-<html>
-<style>
-  p {width:30%;font:Times New Roman;padding-top:2%; background-image: "./jwst_stephansquintet.jpg";}
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nandini Hazra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-<center>
-  <img src='nandini_gransasso.jpg' width='20%' alt='Me!'/>
-  <p>Welcome to Nandini's personal website, thank you for your patience while everything is under construction.</p>
-  <p>Please reach out to me at nandini.hazra@ncbj.gov.pl</p>
 
-</center>
+  <header class="hero">
+    <div class="hero-overlay">
+      <img src="nandini_gransasso.jpg" width="160" alt="Photo of Nandini" class="profile-pic" />
+      <h1>Nandini Hazra</h1>
+      <p class="tagline">Astronomer &mdash; Low Surface Brightness Galaxies &amp; Multi-messenger astronomy</p>
+      <p class="contact">
+        <a href="mailto:nandini.hazra@ncbj.gov.pl">nandini.hazra@ncbj.gov.pl</a>
+      </p>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <a href="#about">About</a>
+    <a href="#interests">Research Interests</a>
+    <a href="#publications">Publications</a>
+    <a href="#cv">CV</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Welcome to my personal website, thank you for your patience while everything is under construction.</p>
+    </section>
+
+    <section id="interests">
+      <h2>Research Interests</h2>
+      <div id="interests-content">
+        <p><em>Loading...</em></p>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Recent Publications</h2>
+      <p class="orcid-link">
+        <a id="orcid-badge" href="#" target="_blank" rel="noopener">View full record on ORCID</a>
+      </p>
+      <ul id="publications-list">
+        <li><em>Loading publications from ORCID...</em></li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>Curriculum Vitae</h2>
+      <p><a href="cv.pdf" target="_blank" rel="noopener">Download my CV (PDF)</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nandini Hazra</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
